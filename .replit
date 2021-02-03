@@ -1,0 +1,2 @@
+language = "cpp"
+run = "g++ Arrays.cpp MyArray.cpp -o a.out ; ./a.out"
