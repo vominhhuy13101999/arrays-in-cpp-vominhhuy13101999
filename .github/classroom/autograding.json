@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Test all functions",
+      "setup": "g++ Arrays.cpp MyArray.cpp -o a.out ",
+      "run": "./a.out",
+      "input": "123",
+      "output": "123\r\n1\r\n0\r\n10\r\n10\r\n11\r\n0\r\n2\r\n11\r\n12\r\n1\r\n0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 100
+    }
+  ]
+}
