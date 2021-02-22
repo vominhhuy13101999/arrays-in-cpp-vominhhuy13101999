@@ -13,6 +13,8 @@ class MyArray : CPSC2232Array
 {
 	private:
 		int *array;
+		int len;
+
 	public:
 		MyArray();
 		int at(int index);
